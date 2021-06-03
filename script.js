@@ -12,7 +12,7 @@ btn.addEventListener('click', (e) =>{
 
 function recevoirTemperature(ville){
 
-    const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + '&appid=e798682b1b6e5b880f1dc4141e7c9be4&units=metric';
+    const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + '&appid=&units=metric';
     let requete = new XMLHttpRequest();
     requete.open('GET', url);
     requete.responseType = 'json';
